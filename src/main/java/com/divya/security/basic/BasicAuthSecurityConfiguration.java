@@ -17,7 +17,7 @@ public class BasicAuthSecurityConfiguration {
 							auth
 							.anyRequest().authenticated();
 						});
-			
+	//		
 //		http.sessionManagement(
 //						session -> 
 //							session.sessionCreationPolicy(
