@@ -16,7 +16,7 @@ public class BasicAuthSecurityConfiguration {
 							auth
 							.anyRequest().authenticated();
 						});
-	
+	//
 		http.formLogin();
 		http.httpBasic();
 		
